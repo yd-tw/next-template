@@ -1,29 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+這是 [Next.js](https://nextjs.org) 專案的模板，依照 YD 開發專案累積的經驗所構建，比預設的 `create-next-app` 添加更多常用的套件，詳細添加的內容可以參考下方列表。
 
 ## Getting Started
+
+執行下方指令，透過 `create-next-app` 直接安裝。
 
 ```bash
 npx create-next-app@latest --example https://github.com/yd-tw/next-template
 ```
 
-First, run the development server:
+接著運行開發伺服器即可。
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 配置內容
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 格式化
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `prettier`
+- `prettier-plugin-tailwindcss`
 
-## Learn More
+### 常用套件
 
-To learn more about Next.js, take a look at the following resources:
+- `@next/third-parties`
+- `next-auth`
+- `lucide-react`
+- `motion`
+- `react-type-animation`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 預設組件
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
+- `HeroSection`
+- `Navbar`
+- `Footer`
+- `SessionProvider`
