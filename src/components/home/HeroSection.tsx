@@ -20,14 +20,7 @@ export default function HeroSection() {
           </span>
           <br></br>
           <TypeAnimation
-            sequence={[
-              "早安",
-              1000,
-              "午安",
-              1000,
-              "晚安",
-              1000,
-            ]}
+            sequence={["早安", 1000, "午安", 1000, "晚安", 1000]}
             wrapper="span"
             speed={50}
             repeat={Infinity}
@@ -61,7 +54,7 @@ export default function HeroSection() {
           <Image
             src="/logo.png"
             alt="hero image"
-            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform"
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform"
             width={300}
             height={300}
             priority
